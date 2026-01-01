@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>السيرة الذاتية | أحمد طارق جلو</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: "Cairo", "Tahoma", sans-serif;
+    background: linear-gradient(135deg, #0b1c2d, #142c44);
+    color: #f5f5f5;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 4px solid #d4af37;
+    border-radius: 20px;
+    background: rgba(10, 25, 45, 0.95);
+    box-shadow: 0 0 35px rgba(212, 175, 55, 0.45);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.photo-frame {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 6px;
+    background: linear-gradient(135deg, #d4af37, #f5e28c);
+    box-shadow: 0 0 20px rgba(212,175,55,0.8);
+}
+
+.photo-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+}
+
+.name-title h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #d4af37;
+}
+
+.name-title h2 {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.name-title p {
+    margin: 0;
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    color: #d4af37;
+    border-right: 5px solid #d4af37;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.section p, .section li {
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+ul {
+    padding-right: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.social-icons a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 18px rgba(212,175,55,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #d4af37;
+}
+
+.social-icons a:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 30px rgba(212,175,55,0.9);
+}
+
+.facebook {
+    background: #1877f2;
+}
+
+.whatsapp {
+    background: #25d366;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #c9c9c9;
+    border-top: 1px solid #d4af37;
+    padding-top: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv-container">
+
+    <div class="header">
+        <div class="photo-frame">
+            <img src="profile.jpg" alt="Ahmed Gallow">
+        </div>
+
+        <div class="name-title">
+            <h1>أحمد طارق جلو | Ahmed Gallow</h1>
+            <h2>باحث قانوني | كادر قيادي شبابي</h2>
+            <p>كفرالشيخ / القاهرة – مصر</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>الملخص المهني</h3>
+        <p>
+            باحث قانوني وكادر قيادي شبابي يتمتع بخلفية قانونية قوية وخبرة واسعة في العمل العام والسياسي والتنموي.
+            يشغل منصب الأمين العام لمؤسسة مصر الشباب للتطوع وتنمية المجتمع، وشارك بفاعلية في المبادرات الوطنية
+            وعلى رأسها مبادرة حياة كريمة.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>الخبرات العملية والمهنية</h3>
+        <ul>
+            <li>الأمين العام – مؤسسة مصر الشباب للتطوع وتنمية المجتمع</li>
+            <li>عضو الحملة الرسمية – حملة سيادة الرئيس عبد الفتاح السيسي</li>
+            <li>رئيس الكيان – شباب الجمهورية (الصفحة الرسمية)</li>
+            <li>صحفي – جريدة بلدينا اليوم</li>
+            <li>مدرب – صندوق مكافحة وعلاج الإدمان والتعاطي</li>
+            <li>عضو – التحالف الوطني للعمل الأهلي التنموي</li>
+            <li>متطوع وكادر قيادي – مؤسسة حياة كريمة</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>التواصل</h3>
+        <div class="social-icons">
+            <a class="facebook" href="https://www.facebook.com/share/198dqkeCRb/?mibextid=wwXIfr" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="whatsapp" href="https://wa.me/201025221471" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        سيرة ذاتية رسمية بتصميم ملكي فاخر<br>
+        <span style="color:#d4af37; font-weight:bold;">
+            Created by usif amr
+        </span>
+    </div>
+
+</div>
+
+</body>
+</html>
